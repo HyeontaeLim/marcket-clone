@@ -1,0 +1,28 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 30px;
+  border-top: 1px solid #edeaea;
+  padding-top: 5px;
+  background-color: white;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-icons {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-icons img {
+  width: 30px;
+  margin-bottom: 5px;
+}
